@@ -11,8 +11,8 @@ The implemented editor supports the following operations (with the assumption th
 |command   |structure|description|
 |----------|:-------:|-----------|
 |__Change__|X,Yc     |Changes the text present to the lines between X and Y|
-|__Read__  |X,Yc     |Prints the lines between X and Y, included|
-|__Delete__|X,Yc     |Deletes the lines between X and Y|
+|__Print__ |X,Yp     |Prints the lines between X and Y, included|
+|__Delete__|X,Yd     |Deletes the lines between X and Y|
 |__Undo__  |Xu       |Cancels a number of commands (c or d) equal to that specified|
 |__Redo__  |Xr       |Undoes the effect of undo for a number of commands equal to  X starting with the current version|
 |__Quit__  |q        |Ends the execution of the editor|
